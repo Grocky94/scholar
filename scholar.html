@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    #layout {
+        border: 1px solid black;
+        border-bottom-right-radius: 450px 450px;
+        background-color: rgb(121, 36, 200);
+        height: 1000px;
+        width: 100%;
+    }
+
+    #nav {
+        padding: 20px;
+        height: 38px;
+        width: 85%;
+        background-color: rgb(109, 10, 202);
+        border: 2px solid black;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 80px;
+        justify-content: space-between;
+        position: sticky;
+        top: 38px;
+    }
+
+    #left-nav {
+        /* border: 1px solid black; */
+        width: 500px;
+        height: 35px;
+        padding: 2px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #left-nav h1 {
+        color: white;
+        margin-top: 1px;
+    }
+
+    #left-nav>div:nth-child(2) {
+        color:white;
+        height: 25px;
+        width: 200px;
+        background-color: rgb(180, 151, 208);
+        border: 5px solid rgb(180, 151, 208);
+        border-radius: 15px;
+        margin: 2px;
+    }
+
+    #left-nav>div:nth-child(2)>input {
+        height: 20px;
+        outline-style: none; 
+    }
+
+    #left-nav>div:nth-child(2)>input::placeholder{
+    color: rgb(180, 151, 208);
+    outline-style: none;         
+    }
+
+    #right-nav {
+        color: white;
+        /* border: 1px solid black; */
+        display: flex;
+        height: 35px;
+        width: 600px;
+        font-size: 20px;
+        text-align: center;
+        justify-content: space-evenly;
+
+    }
+    #right-nav>button {
+        color: white;
+        background-color: rgb(109, 10, 202);
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #right-nav>button:hover{
+        background-color: rgb(180, 151, 208);
+    }
+
+
+    #nxt-bar {
+        border: 1px solid black;
+        height: 800px;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    #nxt-bar>div:nth-child(1) {
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: white;
+        text-align: center;
+        margin-top: 600px;
+        margin-left: 80px;
+        padding:5px;
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+        }
+
+    #nxt-bar>div:nth-child(1):hover{
+        background-color: aliceblue;
+    }
+
+    #nxt-bar>div:nth-child(2){
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: white;
+        text-align:center;
+        margin-left: 80px;
+        padding:5px;
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+
+    }
+</style>
+
+<body>
+    <div id="layout">
+        <div id="nav">
+            <div id="left-nav">
+                <h1>SCHOLAR</h1>
+                <div>
+                    <input placeholder="Type Something"></input>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div id="right-nav">
+                <button>Home</button>
+                <button>Service</button>
+                <button>courses</button>
+                <button>Team</button>
+                <button>Events</button>
+                <button>Register Now!</button>
+            </div>
+        </div>
+        <div id="nxt-bar">
+            <div>
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div>
+            <div>Our Courses</div>
+            <div> With Scholar Teachers,Everything is Easier</div>
+            <div>scholar is free CSS template designed by templeMO for online educational related websites. This layout
+                is
+                bassed on the famous Bootstrap v5.3.0 framework.</div>
+            <div>
+                <div>request</div>
+                <i class="fa-solid fa-play"></i>
+                <div>What's Scholar?</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
